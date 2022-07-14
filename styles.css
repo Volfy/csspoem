@@ -7,8 +7,8 @@ body {
 }
 
 .container {
-    width: clamp(600px, 80%, 1500px);
-    font-size: 48px;
+    width: 50vw;
+    font-size: 1.6vw;
     line-height: 2em;
     font-weight: 500;
 }
