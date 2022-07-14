@@ -1,3 +1,25 @@
 body {
-    background-color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(180deg, lightblue, cornflowerblue);
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    width: clamp(600px, 80%, 1500px);
+    font-size: 48px;
+    line-height: 2em;
+    font-weight: 500;
+}
+.spacer {
+    height: 1600px;
+}
+
+span {
+    font-style: normal;
+    background-color: lightblue;
+    position: sticky;
+    top: 10px;
+
 }
