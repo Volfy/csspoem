@@ -7,5 +7,5 @@ const check_ratio = () => {
         landscape_warning.style.cssText = "display: none";
     }
 }
-check_ratio();
-window.onresize = check_ratio;
+//check_ratio();
+//window.onresize = check_ratio;
