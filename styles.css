@@ -39,6 +39,7 @@ span {
 
 #landscape-warning {
     grid-area: warn;
+    color: darkred;
 }
 .st, .fake-side {
     margin-top: 100vh;
