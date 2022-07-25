@@ -44,7 +44,11 @@ body {
     margin-bottom: 0vh;
 }
 .spacer {
+<<<<<<< HEAD
     margin-bottom: 15em;
+=======
+    margin-bottom: 3em;
+>>>>>>> 0b96217da283c911df07278a8ab4ac82b92eade5
 }
 img {
     width: var(--width);
