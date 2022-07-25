@@ -11,7 +11,8 @@ body {
     display: grid;
     grid-template-columns: 1fr 1600px 1fr;
     grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-    grid-template-areas: 
+    grid-template-areas:
+    "warn warn warn" 
     "left st-one right"
     ". st-two ."
     ". st-three ."
@@ -33,6 +34,10 @@ body {
 }
 span {
     display:block;
+}
+
+#landscape-warning {
+    grid-area: warn;
 }
 .st, .fake-side {
     margin-top: 100vh;
