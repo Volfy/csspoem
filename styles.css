@@ -45,7 +45,7 @@ body {
     margin-bottom: 0vh;
 }
 .spacer {
-    height: calc(14em + var(--width));
+    margin-bottom: 3em;
 }
 img {
     width: var(--width);
@@ -141,9 +141,6 @@ span {
     .wrapper {
         grid-template-columns: auto 600px auto;
     }
-    .spacer {
-        height: calc(20em + var(--width));
-    }
    
 }
 
@@ -183,9 +180,6 @@ span {
     .z {
         top: calc(10em + 9.5em);
     } 
-    .spacer {
-        height: calc(19em + var(--width));
-    }
     .marg-span {
         box-decoration-break: clone;
         -webkit-box-decoration-break: clone;
